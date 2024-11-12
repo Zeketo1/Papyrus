@@ -28,7 +28,9 @@ const NavBar = () => {
         className={`font-poppins z-[100] flex justify-between items-center px-3
          glass py-1 sticky top-0 right-0`}
       >
-        <Link to="/" className="text-[30px] font-serif text-black">Papyrus</h1>
+        <Link to="/" className="text-[30px] font-serif text-black">
+          Papyrus
+        </Link>
 
         <div className="flex min-[360px]:hidden sm:flex sm:gap-4 md:gap-8 ">
           {activeOptions.map(({ text, route }, i) => (
